@@ -63,6 +63,7 @@ function start() {
         callOpenWeather(searchHistory[searchHistory.length - 1]);
     }
 
+    // Search starts here
     function callOpenWeather(cityName) {
 
         let call1 = api1 + cityName + "&units=imperial" + "&appid=" + apiKey;
