@@ -25,7 +25,7 @@ function start() {
     let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
     console.log(searchHistory);
 
-    // This checks the user input
+    // This checks the user input if empty
     searchButton.addEventListener("click",function() {
         let searchTerm = userSearch.value;
 
@@ -43,6 +43,7 @@ function start() {
 
     })
 
+    // This function displays the search histories
     function displayHistory() {
         saveField.innerHTML = "";
         for (let i=0; i<searchHistory.length; i++) {
