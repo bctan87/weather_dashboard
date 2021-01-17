@@ -15,6 +15,7 @@ function start() {
     // Display elements
     let citynameField = document.getElementById("city-name");
     let weatherIcon = document.getElementById("weather-icon");
+    let weatherField = document.getElementById("weather-field");
     let temperatureField = document.getElementById("temperature-field");
     let humidityField  = document.getElementById("humidity-field");
     let windspeedField = document.getElementById("windspeed-field");
@@ -78,7 +79,7 @@ function start() {
         .then(function(response) {
 
             // Determine the searchDate using MomentJS
-            let searchDate = moment().add(10, 'days').calendar();
+            let searchDate = moment().format('L');
             console.log = (searchDate);
 
             // Display City Name and searchDate
@@ -87,6 +88,12 @@ function start() {
             // Display the Weather Icon
             let weatherThumb = response.weather[0].icon;
             weatherIcon.setAttribute("src","https://openweathermap.org/img/wn/" + weatherThumb + "@2x.png");
+
+            // Determine the weather condition
+            let weatherCondition = response.weather[0].main
+
+            // Display weather condition to support the weather icon
+            weatherField.innerHTML = weatherCondition;
 
             // Display Temperature
             temperatureField.innerHTML = "Temperature: "+ response.main.temp + "&#176F";
