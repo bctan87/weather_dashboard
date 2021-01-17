@@ -69,3 +69,5 @@ https://openweathermap.org/guide
 https://getbootstrap.com/docs/5.0/getting-started/introduction/
 
 https://momentjs.com
+
+https://www.epa.gov/sunsafety/uv-index-scale-0
