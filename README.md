@@ -28,7 +28,7 @@ Weather Info Window - this is where the weather data, pertaining to the user inp
 
 ![sc3](/assets/images/sc3.png)
 
-If the user failed to enter a city name and clicks the search button, an alert message will show up.
+If the user fails to enter a city name and clicks the search button, an alert message will show up.
 
 ![sc4](/assets/images/sc4.png)
 
