@@ -20,11 +20,15 @@ This is the look and feel of the app.
 
 ![sc2](/assets/images/sc2.png)
 
-Search Form - enter text here
-Search Button - click to start search
-Search History - this is where current/previous queries would end up
-Weather Info Window - this is where the weather data, pertaining to the user input, would populate
-5 Day Forecast Window - this is where the 5 day weather forecast data, pertaining to the user input, would populate
+Search field - enter text here
+
+Search button - click to start search
+
+Search history - this is where current/previous queries would end up
+
+Weather data window - this is where the weather data, pertaining to the user input, would populate
+
+5-Day forecast data window - this is where the 5 day weather forecast data, pertaining to the user input, would populate
 
 ![sc3](/assets/images/sc3.png)
 
