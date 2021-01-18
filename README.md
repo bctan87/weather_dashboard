@@ -36,13 +36,20 @@ If the query is successful, all empty fields would be populated
 
 ![sc5](/assets/images/sc5.png)
 
-UV field is color coded:
-If the UV index is less than 3, the color would be green.
-If the UV index is 4 to 5, the color would be yellow.
+Although not in the AC, the weather description was added to supplement the weather icon.
 
 ![sc6](/assets/images/sc6.png)
 
-If the UV index is 6 and up, the color would be red.
+UV field is color coded:
+If the UV index is less than 3, the color would be green.
+
+![sc7](/assets/images/sc7.png)
+
+If the UV index is 4 to 6, the color would be yellow.
+
+![sc8](/assets/images/sc8.png)
+
+If the UV index is 7 and up, the color would be red.
 
 ## Credits 
 
